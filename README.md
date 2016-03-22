@@ -1,4 +1,4 @@
-# A mini demo for [cffi](http://cffi.readthedocs.org/) (C Foreign Function Interface for Python) - API level, out-of-line
+# A mini demo for [cffi](http://cffi.readthedocs.org/) - API level, out-of-line
 
 # Demo environment
   - Ubuntu 14.04.4 LTS
@@ -6,7 +6,7 @@
   - CPython 2.7.6(with cffi 1.5.2), pypy 5.0.1 (with built-in cffi)
 
 
-# Demo steps (API level, out-of-line):
+# Demo steps:
 
 ## 1. Create a C static lib
    - Implement a simple function as: `int mysum(int a, int b)` in `./clib/mysum.c`
